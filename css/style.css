@@ -1416,3 +1416,10 @@ h3.title {
 }
 }
 /*--//responsive--*/
+
+@media (max-width: 480px) {
+    iframe[src *= “facebook”]{
+        max-width:360px;
+        height: 197px;
+    }
+}
